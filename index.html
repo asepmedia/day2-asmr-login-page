@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASMR Programming - Login Page - No Talking</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-row {
+            flex-direction: row;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .h-screen {
+            height: 100vh;
+        }
+
+        .text-white {
+            color: #ffffff;
+        }
+
+        .bg-primary {
+            background-color: #6500E5;
+        }
+
+        .font-300 {
+            font-weight: 300;
+        }
+
+        .font-400 {
+            font-weight: 400;
+        }
+
+        .font-500 {
+            font-weight: 500;
+        }
+
+        .font-600 {
+            font-weight: 600;
+        }
+
+        .font-700 {
+            font-weight: 700;
+        }
+
+        .font-800 {
+            font-weight: 800;
+        }
+
+        .font-900 {
+            font-weight: 900;
+        }
+
+        .title {
+            font-size: 50px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+        }
+
+        input {
+            background-color: #ffffff;
+            border: 3px solid #303030;
+            border-radius: 10px;
+            padding: 16px 25px 16px 25px;
+            font-size: 20px;
+        }
+
+        input::placeholder {
+            color: #303030;
+            font-weight: 600;
+        }
+
+        button {
+            background-color: #303030;
+            border: 3px solid #303030;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 16px 25px 16px 25px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .forgot-password {
+            color: #D4D4D4;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex h-screen bg-primary justify-content-center align-items-center flex-column" style="padding-right: 25px;padding-left: 25px;">
+        <!-- Title -->
+        <div class="center w-100">
+            <h3 class="text-white title font-900">
+                PovAsmrProg
+            </h3>
+            <span class="text-white subtitle font-400">
+                Enjoy ASMR Sound
+            </span>
+        </div>
+        <!-- End title -->
+        <div style="margin-top:70px"></div>
+        <!-- Input Field -->
+        <div class="flex flex-column w-100">
+            <div class="flex">
+                <input class="w-100" type="text" placeholder="Phone, username, or email">
+            </div>
+            <div style="margin-top:20px"></div>
+            <div class="flex">
+                <input class="w-100" type="password" placeholder="Password">
+            </div>
+        </div>
+        <!-- End Input Field -->
+        <div style="margin-top:20px"></div>
+        <!-- Forgot Password -->
+        <div class="w-100 right">
+            <a href="" class="forgot-password">
+                Forgot password?
+            </a>
+        </div>
+        <!-- End Forgot Password -->
+        <div style="margin-top:20px"></div>
+        <!-- Button Sign in -->
+        <div class="flex flex-column w-100">
+            <button class="font-700">
+                Log in
+            </button>
+        </div>
+        <!-- End Button Sign in -->
+        <div style="margin-top:20px"></div>
+        <!-- Create new account -->
+        <div class="flex w-100 align-items-center flex-column">
+            <span class="font-700" style="color:#D4D4D4;font-size: 20px;">
+                OR
+            </span>
+            <div style="margin-top:5px"></div>
+            <a class="font-800 text-white" style="font-size: 20px;">
+                Create new account
+            </a>
+        </div>
+        <!-- End Create new account -->
+    </div>
+</body>
+</html>
